@@ -3,7 +3,7 @@
 
 An end-to-end data analysis project: raw pharmacy data (3 sales files, products, customers, stock, stores, suppliers) cleaned in **Python**, explored and validated in **SQL Server**, and presented in a 4-page **Power BI** dashboard.
 
-![Dashboard overview](dashboard/page1_executive_overview.png)
+![Dashboard overview](page1_executive_overview.png)
 
 ## Business Problem
 A pharmacy chain sells through 12 stores across 5 regions. Management wants to know:
@@ -38,14 +38,14 @@ A pharmacy chain sells through 12 stores across 5 regions. Management wants to k
 4. Investigate North's pricing and discount practice.
 5. Set a clear "expiring soon" window and clear or return near-expiry stock before the monthly peaks.
 
-## Repository Structure
-```
-python/      pharmacy_cleaning.py
-excel/       PharmaPulse_PowerQuery.xlsx   (Power Query cleaning: Data > Queries & Connections)
-sql/         pharmacy_analysis_queries.sql
-dashboard/   screenshots + PharmaPulse.pbix
-data/        raw and cleaned CSV files
-```
+   README.md                       project overview
+   pharmacy_cleaning.py            Python cleaning script
+   pharmacy_analysis_queries.sql   22 SQL Server queries
+   PharmaPulse_PowerQuery.xlsx     Power Query cleaning (Excel)
+   PharmaPulse_Dashboard.pbix      Power BI dashboard
+   page1..page4 (.png)             dashboard screenshots
+   *_cleaned.csv                   cleaned data (sales, products, customers)
+   PharmaPulse_Analytics.pdf       presentation
 
 ## Tools
 Python (pandas, numpy, regex) · Power Query (Excel) · SQL Server (SSMS) · Power BI · DAX · Excel
